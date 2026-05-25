@@ -1,0 +1,45 @@
+body {
+  margin: 0;
+  font-family: Arial;
+  background: #0f172a;
+  color: white;
+  text-align: center;
+}
+
+header {
+  padding: 50px;
+  background: #111827;
+}
+
+.profile {
+  width: 150px;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+h1 {
+  margin: 10px 0;
+}
+
+a {
+  color: #38bdf8;
+  margin: 10px;
+  text-decoration: none;
+}
+
+section {
+  padding: 40px;
+}
+
+.card {
+  background: #1f2937;
+  padding: 20px;
+  margin: 10px auto;
+  width: 60%;
+  border-radius: 10px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
