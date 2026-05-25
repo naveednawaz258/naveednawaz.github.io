@@ -1,45 +1,124 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', sans-serif;
+}
+
 body {
-  margin: 0;
-  font-family: Arial;
-  background: #0f172a;
-  color: white;
-  text-align: center;
+    background: #0b0620;
+    color: #fff;
 }
 
-header {
-  padding: 50px;
-  background: #111827;
+/* Layout */
+.container {
+    width: 80%;
+    margin: auto;
 }
 
-.profile {
-  width: 150px;
-  border-radius: 50%;
-  margin-bottom: 10px;
+/* HERO */
+.hero {
+    padding: 80px 0;
 }
 
-h1 {
-  margin: 10px 0;
+.hero-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
-a {
-  color: #38bdf8;
-  margin: 10px;
-  text-decoration: none;
+.hero h1 {
+    font-size: 40px;
 }
 
-section {
-  padding: 40px;
+.hero p {
+    margin: 15px 0;
+    color: #aaa;
 }
 
-.card {
-  background: #1f2937;
-  padding: 20px;
-  margin: 10px auto;
-  width: 60%;
-  border-radius: 10px;
+.buttons {
+    margin-top: 20px;
 }
 
-ul {
-  list-style: none;
-  padding: 0;
+.btn {
+    padding: 10px 20px;
+    border: 1px solid #aaa;
+    color: white;
+    text-decoration: none;
+    margin-right: 10px;
+    border-radius: 5px;
+}
+
+.primary {
+    background: #6c63ff;
+    border: none;
+}
+
+/* HERO IMAGE */
+.right img {
+    width: 200px;
+}
+
+/* ABOUT */
+.about {
+    margin-top: 40px;
+}
+
+.about h2 {
+    margin-bottom: 10px;
+}
+
+/* SKILLS */
+.skills-section {
+    background: #2b1e4b;
+    padding: 40px 0;
+    margin-top: 40px;
+}
+
+.skills-box {
+    background: #140a2e;
+    padding: 30px;
+    border-radius: 10px;
+}
+
+.skills {
+    display: flex;
+    gap: 10px;
+    margin: 15px 0;
+}
+
+.skills span {
+    background: #3a2b6b;
+    padding: 8px 15px;
+    border-radius: 5px;
+}
+
+/* PROJECT */
+.projects {
+    margin-top: 50px;
+}
+
+.project-box {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+/* EDUCATION */
+.education-section {
+    background: #2b1e4b;
+    padding: 40px 0;
+    margin-top: 50px;
+}
+
+.education-box {
+    background: #140a2e;
+    padding: 30px;
+    border-radius: 10px;
+}
+
+.edu-card {
+    border: 1px solid #aaa;
+    padding: 15px;
+    margin-top: 15px;
 }
